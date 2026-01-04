@@ -130,9 +130,9 @@ export default function Login() {
             <p className="text-xs text-gray-600 mb-3 font-medium">Demo Credentials:</p>
             <div className="space-y-2 text-xs text-gray-600">
               <div className="bg-gray-50 p-3 rounded-lg">
-                <p className="font-medium text-gray-700">Owner Account:</p>
-                <p>Username: <code className="bg-white px-2 py-1 rounded text-blue-600 font-mono">paisx</code></p>
-                <p>Password: <code className="bg-white px-2 py-1 rounded text-blue-600 font-mono">2009</code></p>
+                <p className="font-medium text-gray-700">Demo Account:</p>
+                <p>Username: <code className="bg-white px-2 py-1 rounded text-blue-600 font-mono">eleina</code></p>
+                <p>Password: <code className="bg-white px-2 py-1 rounded text-blue-600 font-mono">9090</code></p>
               </div>
             </div>
           </div>
