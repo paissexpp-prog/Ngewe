@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    {
+      "source": "/vps-api/:path*",
+      "destination": "http://193.23.209.199:3001/api/:path*"
+    },
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.ts"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
